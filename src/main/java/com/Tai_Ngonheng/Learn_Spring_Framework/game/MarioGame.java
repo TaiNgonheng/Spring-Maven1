@@ -1,6 +1,6 @@
 package com.Tai_Ngonheng.Learn_Spring_Framework.game;
 
-public class MarioGame {
+public class MarioGame implements GamingConsole {
 
     public void up(){
         System.out.println(" It's Mario Game.");
