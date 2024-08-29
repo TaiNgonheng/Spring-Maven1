@@ -7,5 +7,6 @@ public class App02SpringHello {
         var context = new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
 
 
+
     }
 }
