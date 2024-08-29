@@ -6,5 +6,6 @@ public class App02SpringHello {
     public static void main(String[] args) {
         var context = new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
 
+
     }
 }
