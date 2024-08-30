@@ -51,7 +51,7 @@ public class HelloWorldConfiguration {
 
     @Bean
     public Person paramenter(String name, int age){
-       return new Person(name(),age());
+       return new Person(name,age);
     }
 
 
