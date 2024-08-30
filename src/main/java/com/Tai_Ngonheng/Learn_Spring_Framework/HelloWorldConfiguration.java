@@ -3,11 +3,19 @@ package com.Tai_Ngonheng.Learn_Spring_Framework;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-record Person (String name, int age, address Adress){ };
+record Person (String name, int age){ };
 record address (int firstline, String city){};
 record Information (int id, String firstname, String lastname, char gender, String email, String phone_Number ){};
+record test(int id, String name){};
+record Total(){};
+
 @Configuration
 public class HelloWorldConfiguration {
+
+    @Bean (name = "Testt")
+    public test Test(){
+        return new test(1,"Ngonheng");
+    }
     @Bean
     public String name(){
      return "Watermelon";
@@ -19,8 +27,8 @@ public class HelloWorldConfiguration {
     }
 
     @Bean
-    public Person person(){
-        return new Person("Ravi",19,Address());
+    public Person person(String name,int age){
+        return new Person(name(),age());
 
     }
 
@@ -37,8 +45,15 @@ public class HelloWorldConfiguration {
 
     @Bean
     public Person person2method(){
-        return new Person(name(),age(), Address());
+        return new Person(name(),age());
     }
+
+
+    @Bean
+    public Person paramenter(String name, int age){
+       return new Person(name(),age());
+    }
+
 
 
 
