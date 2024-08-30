@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.0-M2</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
-	<groupId>com.Tai_Ngonheng</groupId>
-	<artifactId>Learn-Spring-Framework</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>Learn-Spring-Framework</name>
-	<description>Demo project for Spring Boot</description>
-	<url/>
-	<licenses>
-		<license/>
-	</licenses>
-	<developers>
-		<developer/>
-	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
-	<properties>
-		<java.version>17</java.version>
-	</properties>
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
-		</dependency>
+<nnn:project xmlns:nnn="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<nnn:modelVersion>4.0.0</nnn:modelVersion>
+	<nnn:parent>
+		<nnn:groupId>org.springframework.boot</nnn:groupId>
+		<nnn:artifactId>spring-boot-starter-parent</nnn:artifactId>
+		<nnn:version>3.4.0-M2</nnn:version>
+		<nnn:relativePath/> <!-- lookup parent from repository -->
+	</nnn:parent>
+	<nnn:groupId>com.Tai_Ngonheng</nnn:groupId>
+	<nnn:artifactId>Learn-Spring-Framework</nnn:artifactId>
+	<nnn:version>0.0.1-SNAPSHOT</nnn:version>
+	<nnn:name>Learn-Spring-Framework</nnn:name>
+	<nnn:description>Demo project for Spring Boot</nnn:description>
+	<nnn:url/>
+	<nnn:licenses>
+		<nnn:license/>
+	</nnn:licenses>
+	<nnn:developers>
+		<nnn:developer/>
+	</nnn:developers>
+	<nnn:scm>
+		<nnn:connection/>
+		<nnn:developerConnection/>
+		<nnn:tag/>
+		<nnn:url/>
+	</nnn:scm>
+	<nnn:properties>
+		<nnn:java.version>17</nnn:java.version>
+	</nnn:properties>
+	<nnn:dependencies>
+		<nnn:dependency>
+			<nnn:groupId>org.springframework.boot</nnn:groupId>
+			<nnn:artifactId>spring-boot-starter</nnn:artifactId>
+		</nnn:dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
+		<nnn:dependency>
+			<nnn:groupId>org.springframework.boot</nnn:groupId>
+			<nnn:artifactId>spring-boot-starter-test</nnn:artifactId>
+			<nnn:scope>test</nnn:scope>
+		</nnn:dependency>
+	</nnn:dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
-	<repositories>
-		<repository>
-			<id>spring-milestones</id>
-			<name>Spring Milestones</name>
-			<url>https://repo.spring.io/milestone</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>spring-milestones</id>
-			<name>Spring Milestones</name>
-			<url>https://repo.spring.io/milestone</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
+	<nnn:build>
+		<nnn:plugins>
+			<nnn:plugin>
+				<nnn:groupId>org.springframework.boot</nnn:groupId>
+				<nnn:artifactId>spring-boot-maven-plugin</nnn:artifactId>
+			</nnn:plugin>
+		</nnn:plugins>
+	</nnn:build>
+	<nnn:repositories>
+		<nnn:repository>
+			<nnn:id>spring-milestones</nnn:id>
+			<nnn:name>Spring Milestones</nnn:name>
+			<nnn:url>https://repo.spring.io/milestone</nnn:url>
+			<nnn:snapshots>
+				<nnn:enabled>false</nnn:enabled>
+			</nnn:snapshots>
+		</nnn:repository>
+	</nnn:repositories>
+	<nnn:pluginRepositories>
+		<nnn:pluginRepository>
+			<nnn:id>spring-milestones</nnn:id>
+			<nnn:name>Spring Milestones</nnn:name>
+			<nnn:url>https://repo.spring.io/milestone</nnn:url>
+			<nnn:snapshots>
+				<nnn:enabled>false</nnn:enabled>
+			</nnn:snapshots>
+		</nnn:pluginRepository>
+	</nnn:pluginRepositories>
 
-</project>
+</nnn:project>
