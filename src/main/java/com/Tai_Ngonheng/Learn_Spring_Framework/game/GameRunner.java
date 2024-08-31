@@ -1,9 +1,9 @@
 package com.Tai_Ngonheng.Learn_Spring_Framework.game;
 
 public class GameRunner {
-    private final MarioGame gamme;
+    private final PacMan gamme;
     private GamingConsole game;
-    public GameRunner(MarioGame gamme){
+    public GameRunner(PacMan gamme){
         this.gamme = gamme;
     }
     public void run() {
