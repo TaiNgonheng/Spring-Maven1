@@ -10,6 +10,7 @@ public class App03GamingBasicJava {
     public static void main(String[] args) {
         var context = new AnnotationConfigApplicationContext(GamingConfiguration.class);
         context.getBean(GamingConsole.class).up();
+
 //          var gamme = new PacMan();
 ////        var game = new SuperContraGame();
 ////        var game = new PacMan();
