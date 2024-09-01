@@ -10,8 +10,7 @@ public class App03GamingBasicJava {
     try(var context = new AnnotationConfigApplicationContext(GamingConfiguration.class)){
         context.getBean(GamingConsole.class).up();
         context.getBean(GameRunner.class).run();
-
-
+        System.out.println("hello world");
 
     }
   }
