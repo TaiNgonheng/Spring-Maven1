@@ -14,6 +14,7 @@ import java.util.Arrays;
 class YourBusinessClass{
     Dependency dependency1;
     Dependency2 dependency2;
+
     @Autowired
     public YourBusinessClass(Dependency dependency1, Dependency2 dependency2) {
         super();
@@ -21,7 +22,7 @@ class YourBusinessClass{
         this.dependency1 = dependency1;
         this.dependency2 = dependency2;
     }
-//    @Autowired
+//    @Autowiredg
 //    public void setDependency1(Dependency dependency1) {
 //        System.out.println("setter Injection -setDependency 1");
 //        this.dependency1 = dependency1;
