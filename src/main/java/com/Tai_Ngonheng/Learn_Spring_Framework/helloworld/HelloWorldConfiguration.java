@@ -1,4 +1,4 @@
-package com.Tai_Ngonheng.Learn_Spring_Framework;
+package com.Tai_Ngonheng.Learn_Spring_Framework.helloworld;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
