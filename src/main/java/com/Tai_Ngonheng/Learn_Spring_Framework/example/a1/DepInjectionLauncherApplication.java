@@ -50,6 +50,7 @@ class Dependency2{
 @ComponentScan("com/Tai_Ngonheng/Learn_Spring_Framework.example.a1")
 public class DepInjectionLauncherApplication {
     public static void main(String[] args) {
+        System.out.println("Hello world ");
     try(var context = new AnnotationConfigApplicationContext(DepInjectionLauncherApplication.class)){
 
         Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println );
