@@ -22,7 +22,8 @@ class YourBusinessClass{
         this.dependency1 = dependency1;
         this.dependency2 = dependency2;
     }
-//    @Autowiredg
+//
+
 //    public void setDependency1(Dependency dependency1) {
 //        System.out.println("setter Injection -setDependency 1");
 //        this.dependency1 = dependency1;
