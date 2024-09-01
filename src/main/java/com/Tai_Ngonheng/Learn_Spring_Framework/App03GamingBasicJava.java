@@ -11,6 +11,8 @@ public class App03GamingBasicJava {
         context.getBean(GamingConsole.class).up();
         context.getBean(GameRunner.class).run();
 
+
+
     }
   }
 }
