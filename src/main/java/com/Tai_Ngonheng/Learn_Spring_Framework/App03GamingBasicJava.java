@@ -12,6 +12,8 @@ public class App03GamingBasicJava {
         context.getBean(GameRunner.class).run();
         System.out.println("hello world");
 
+
+
     }
   }
 }
