@@ -46,13 +46,17 @@ class Dependency{
 @Component
 class Dependency2{
 
+
 }
 @Configuration
 @ComponentScan("com/Tai_Ngonheng/Learn_Spring_Framework.example.a1")
 public class DepInjectionLauncherApplication {
     public static void main(String[] args) {
         System.out.println("Hello world ");
-        System.out.println("Hello everybody My name is Tai Ngonheng.");
+        System.out.println("Hello everybody My name" +
+                "" +
+                "" +
+                " is Tai Ngonheng.");
     try(var context = new AnnotationConfigApplicationContext(DepInjectionLauncherApplication.class)){
         Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println );
         System.out.println(context.getBean(YourBusinessClass.class));
