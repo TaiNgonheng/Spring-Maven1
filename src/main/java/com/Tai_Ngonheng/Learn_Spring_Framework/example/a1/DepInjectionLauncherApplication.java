@@ -12,6 +12,7 @@ import java.util.Arrays;
 
 @Component
 class YourBusinessClass{
+
     Dependency dependency1;
     Dependency2 dependency2;
 
