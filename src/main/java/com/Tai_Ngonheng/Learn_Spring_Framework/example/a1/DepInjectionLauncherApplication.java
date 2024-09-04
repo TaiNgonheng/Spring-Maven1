@@ -52,6 +52,7 @@ class Dependency2{
 public class DepInjectionLauncherApplication {
     public static void main(String[] args) {
         System.out.println("Hello world ");
+        System.out.println("Hello everybody My name is Tai Ngonheng.");
     try(var context = new AnnotationConfigApplicationContext(DepInjectionLauncherApplication.class)){
 
         Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println );
