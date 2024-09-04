@@ -54,7 +54,6 @@ public class DepInjectionLauncherApplication {
         System.out.println("Hello world ");
         System.out.println("Hello everybody My name is Tai Ngonheng.");
     try(var context = new AnnotationConfigApplicationContext(DepInjectionLauncherApplication.class)){
-
         Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println );
         System.out.println(context.getBean(YourBusinessClass.class));
     }
